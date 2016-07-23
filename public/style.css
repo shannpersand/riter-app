@@ -52,6 +52,7 @@ footer {
 textarea {
   font-family: "Riter Basic", "Input Sans", Monaco, COnsolas, monospace;
   font-size: 1.6rem;
+  line-height: 1.6;
   border: none;
   overflow: auto;
   outline: none;
