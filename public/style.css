@@ -1,0 +1,160 @@
+/* http://meyerweb.com/eric/tools/css/reset/  v2.0 | 20110126 License: none (public domain)
+ * */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+
+body { line-height: 1; }
+
+ol, ul { list-style: none; }
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html { box-sizing: border-box; font: 62.5%/1.15 sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: greyscale; color: black; text-rendering: optimize-Legibility; }
+
+*, *:before, *:after { box-sizing: inherit; }
+
+/* custom styles */
+
+html, body { height: 100%;}
+header {
+  height: 5%;
+}
+
+footer {
+  height: 5%;
+}
+
+.main {
+  height: 90%;
+  display: flex;
+  align-items: stretch;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+}
+
+textarea {
+  font-family: "Riter Basic", "Input Sans", Monaco, COnsolas, monospace;
+  font-size: 1.6rem;
+  border: none;
+  overflow: auto;
+  outline: none;
+  resize: none;
+  box-shadow: 0 0 3px rgba(0,0,0,0.2);
+  padding: 2%;
+  width: 50%;
+}
+
+.result {
+  overflow: auto;
+  width: 50%;
+  padding: 2%;
+}
+
+.full, .two-halves, .three-thirds, .four-quarters, .five-fifths, .six-sixths { display: block; width: 100%; }
+
+.one-half, .two-quarters, .three-sixths { width: 50%; }
+
+.one-third { width: calc(100%/3); }
+
+.two-thirds { width: calc((100%/3)*2); }
+
+.one-quarter { width: 25%; }
+
+.three-quarters { width: 75%; }
+
+.one-fifth { width: calc(100%/5); }
+
+.two-fifths { width: calc((100%/5)*2); }
+
+.three-fifths { width: calc((100%/5)*3); }
+
+.four-fifths { width: calc((100%/5)*4); }
+
+.size-icon { max-width: 5.0rem; }
+
+.padding-default { padding: 0 3%; }
+
+.padding-all { padding: 3%; }
+
+.margin-default { margin: 0 auto; }
+
+.margin-text { margin-top: 1.8rem; margin-bottom: 2.4rem; }
+
+.margin-sides { margin-left: 3%; margin-right: 3%; }
+
+.wrapper { max-width: 80rem; width: 100%; }
+
+body { font-size: 1.6rem; line-height: 1.15; font-family: impact; background: whitesmoke; }
+
+p { font-family: optima; }
+
+img { width: 100%; }
+
+a { font-size: 1.8rem; text-decoration: none; }
+
+.background-main { background-color: whitesmoke; color: midnightblue; }
+.background-main a { color: #22229a; background: linear-gradient(whitesmoke, whitesmoke) 0 95%/0.05em 1px no-repeat, linear-gradient(whitesmoke, whitesmoke) 100% 95%/0.05em 1px no-repeat, linear-gradient(#101046, #101046) 0 89%/1px 1px repeat-x; text-shadow: 0.03em 0 whitesmoke, -0.03em 0 whitesmoke, 0 0.03em whitesmoke, 0 -0.03em whitesmoke, 0.06em 0 whitesmoke, -0.06em 0 whitesmoke, 0.09em 0 whitesmoke, -0.09em 0 whitesmoke, 0.12em 0 whitesmoke, -0.12em 0 whitesmoke, 0.15em 0 whitesmoke, -0.15em 0 whitesmoke; text-decoration: none; }
+.background-main a:hover { background: transparent; color: #101046; text-decoration: none; }
+
+.background-inverse { background-color: midnightblue; color: whitesmoke; }
+.background-inverse a { color: white; background: linear-gradient(midnightblue, midnightblue) 0 95%/0.05em 1px no-repeat, linear-gradient(midnightblue, midnightblue) 100% 95%/0.05em 1px no-repeat, linear-gradient(gainsboro, gainsboro) 0 89%/1px 1px repeat-x; text-shadow: 0.03em 0 midnightblue, -0.03em 0 midnightblue, 0 0.03em midnightblue, 0 -0.03em midnightblue, 0.06em 0 midnightblue, -0.06em 0 midnightblue, 0.09em 0 midnightblue, -0.09em 0 midnightblue, 0.12em 0 midnightblue, -0.12em 0 midnightblue, 0.15em 0 midnightblue, -0.15em 0 midnightblue; text-decoration: none; }
+.background-inverse a:hover { background: transparent; color: gainsboro; text-decoration: none; }
+
+/* Paragraph Styles */
+h1 { font-size: 4.4rem; }
+
+h2 { font-size: 3rem; }
+
+h3 { font-size: 2.4rem; }
+
+h4 { font-size: 2rem; }
+
+p { font-size: 1.8rem; line-height: 1.35; }
+p.small-caps { text-transform: uppercase; letter-spacing: 1px; font-size: 1.35rem; font-weight: bolder; }
+
+small { font-size: 0.8rem; }
+
+caption { font-size: 0.6rem; text-transform: uppercase; letter-spacing: 1px; }
+
+strong, .bolder { font-weight: bolder; }
+
+.lighter { font-weight: lighter; }
+
+em { font-style: italic; }
+
+.capitalize { text-transform: uppercase; }
+
+.rag-left { text-align: right; }
+
+.rag-right { text-align: left; }
+
+.center { text-align: center; }
+
+/* Character Styles */
+.float-left { float: left; }
+
+.float-right { float: right; }
+
+.block { display: block; }
+
+.inline { display: inline; }
+
+.inline-block { display: inline-block; }
+
+.hide { visibility: hidden; opacity: 0; }
+
+.clear:after { content: ""; display: table; clear: both; }
+
+a.not-text { text-decoration: none; background: none; }
+
+.full-height {
+  height: 100%
+}
+

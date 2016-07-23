@@ -1,0 +1,29 @@
+{
+  "name": "riter-app",
+  "version": "1.0.0",
+  "description": "An app for testing a markdown writing font",
+  "main": "index.js",
+  "dependencies": {
+    "redis": "^2.6.2",
+    "share": "^0.6.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/shannpersand/riter-app.git"
+  },
+  "keywords": [
+    "riter",
+    "fonts",
+    "markdown"
+  ],
+  "author": "Shannon Miwa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shannpersand/riter-app/issues"
+  },
+  "homepage": "https://github.com/shannpersand/riter-app#readme"
+}
