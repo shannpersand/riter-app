@@ -17,7 +17,7 @@ app.get('/(:id)', function(req, res) {
 
 // get sharejs dependencies (for multiple users)
 var sharejs = require('share');
-require('redis');
+//require('redis');
 
 // set up redis server
 var redisClient;
