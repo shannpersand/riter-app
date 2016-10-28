@@ -17,4 +17,4 @@ Will open a new editing session for multiple people. I don't know if it saves it
 - Show/Hide editor
 
 
-Followed: https://scotch.io/tutorials/building-a-real-time-markdown-viewer
+Basically copied from: https://scotch.io/tutorials/building-a-real-time-markdown-viewer

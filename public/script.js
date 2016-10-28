@@ -1,7 +1,7 @@
 window.onload = function() {
     var converter = new showdown.Converter();
     var pad = document.getElementById('pad');
-    var markdownArea = document.getElementById('markdown'); 
+    var markdownArea = document.getElementById('markdown');
 
     // make the tab act like a tab
     pad.addEventListener('keydown',function(e) {
@@ -26,7 +26,7 @@ window.onload = function() {
         }
     });
 
-    var previousMarkdownValue;          
+    var previousMarkdownValue;
 
     // convert text area to markdown html
     var convertTextAreaToMarkdown = function(){
@@ -60,10 +60,32 @@ window.onload = function() {
         sharejs.open(documentName, 'text', function(error, doc) {
             doc.attach_textarea(pad);
             convertTextAreaToMarkdown();
-        });        
+        });
     }
 
     // convert on page load
     convertTextAreaToMarkdown();
 
 };
+
+// Other functionality
+
+var previewToggle = document.getElementById('previewToggle');
+var textPad = document.getElementById('padOverlay');
+var title = document.getElementById('title');
+
+previewToggle.addEventListener('click', function() {
+  if (!textPad.classList.contains('pad-hide')) {
+    textPad.classList.add('pad-hide');
+    previewToggle.classList.add('button-edit');
+    previewToggle.innerHTML = 'Edit'
+    title.classList.add('title-read');
+    title.innerHTML = "Reading Mode"
+  } else {
+    textPad.classList.remove('pad-hide');
+    previewToggle.classList.remove('button-edit');
+    previewToggle.innerHTML = 'Preview'
+    title.classList.remove('title-read');
+    title.innerHTML = "Writing Mode"
+  };
+});

@@ -5,12 +5,20 @@
   <link type="text/css" rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="full">header</header>
+  <header id="title" class="full">Writing Mode</header>
   <section class="main">
-    <textarea class="input" id="pad">Here's the text</textarea>
+    <div id="padOverlay" class="pad-overlay">
+      <textarea class="input" id="pad">
+# Riter Typing
+
+Write something here.
+      </textarea>
+    </div>
     <div class="result" id="markdown"></div>
   </section>
-  <footer class="full">footer</footer>
+  <footer class="full">
+    <button id="previewToggle" class="button">Preview</button>
+  </footer>
 
   <script src="https://cdn.rawgit.com/showdownjs/showdown/1.0.2/dist/showdown.min.js"></script>
   <script src="/channel/bcsocket.js"></script>
