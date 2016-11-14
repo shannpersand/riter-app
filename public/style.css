@@ -41,6 +41,7 @@ body { font-size: 1.6rem; line-height: 1.15; font-family: 'riterblack', impact; 
 
 html, body { height: 100%;}
 header {
+  font-size: 36px;
   background: orchid;
   min-height: 10%;
   display: flex;
@@ -107,10 +108,11 @@ textarea {
   overflow: auto;
   width: 100%;
   padding: 2%;
+  margin-top: 30px;
 }
 
 .button {
-  width: 25%;
+  font-family: 'riterblack', impact;
   border: 0;
   color: white;
   font-weight: bold;
