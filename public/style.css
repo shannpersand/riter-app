@@ -20,12 +20,28 @@ html { box-sizing: border-box; font: 62.5%/1.15 sans-serif; -webkit-font-smoothi
 
 *, *:before, *:after { box-sizing: inherit; }
 
+@font-face {
+  font-family: 'riterbasic';
+  src: url("riter_base-webfont-3.woff2") format("woff2"), url("fonts/riter_base-webfont-3.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'riter_italicitalic';
+  src: url("riter_base_italic-webfont-3.woff2") format("woff2"), url("fonts/riter_base_italic-webfont-3.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'riterblack';
+  src: url("riter_fattest-webfont.woff2") format("woff2"), url("fonts/riter_fattest-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
 /* custom styles */
-body { font-size: 1.6rem; line-height: 1.15; font-family: impact; background: whitesmoke; }
+body { font-size: 1.6rem; line-height: 1.15; font-family: 'riterblack', impact; background: whitesmoke; }
 
 html, body { height: 100%;}
 header {
-  background: cornflowerblue;
+  background: orchid;
   min-height: 10%;
   display: flex;
   justify-content: center;
@@ -74,7 +90,7 @@ footer {
 }
 
 textarea {
-  font-family: "Riter Basic", "Input Sans", Monaco, COnsolas, monospace;
+  font-family: "riterbasic", "Input Sans", Monaco, COnsolas, monospace;
   font-size: 1.6rem;
   line-height: 1.6;
   border: none;
@@ -100,7 +116,7 @@ textarea {
   font-weight: bold;
   font-size: 1.6rem;
   padding: 10px 20px;
-  background: cornflowerblue;
+  background: orchid;
   border-radius: 2px;
   transition: all 100ms ease;
   text-transform: uppercase;
@@ -109,7 +125,7 @@ textarea {
 }
 
 .button:hover {
-  background: steelblue;
+  background: purple;
   transform: scale(1.05);
   transition: all 100ms ease;
 }
@@ -128,7 +144,7 @@ textarea {
 }
 
 p {
-  font-family: optima;
+  font-family: 'riter_italicitalic', serif;
 }
 
 img { width: 100%; }
@@ -165,5 +181,5 @@ ul {
 }
 
 li {
-  font-family: optima;
+  font-family: 'riter_italicitalic', serif;
 }
