@@ -21,12 +21,12 @@ html { box-sizing: border-box; font: 62.5%/1.15 sans-serif; -webkit-font-smoothi
 *, *:before, *:after { box-sizing: inherit; }
 
 @font-face {
-  font-family: 'riterbasic';
+  font-family: 'Riter-Basic';
   src: url("riter_base-webfont-3.woff2") format("woff2"), url("fonts/riter_base-webfont-3.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 @font-face {
-  font-family: 'riter_basic_italicitalic';
+  font-family: 'Riter-Italic';
   src: url("riter_base_italic-webfont-3.woff2") format("woff2"), url("fonts/riter_base_italic-webfont-3.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
