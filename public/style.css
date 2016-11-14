@@ -37,7 +37,7 @@ html { box-sizing: border-box; font: 62.5%/1.15 sans-serif; -webkit-font-smoothi
   font-style: normal; }
 
 /* custom styles */
-body { font-size: 1.6rem; line-height: 1.15; font-family: 'riterblack', impact; background: whitesmoke; }
+body { font-size: 1.6rem; line-height: 1.15; font-family: 'Riter-Black', impact; background: whitesmoke; }
 
 html, body { height: 100%;}
 header {
@@ -91,7 +91,7 @@ footer {
 }
 
 textarea {
-  font-family: "riterbasic", "Input Sans", Monaco, COnsolas, monospace;
+  font-family: "Riter-Basic", "Input Sans", Monaco, COnsolas, monospace;
   font-size: 1.6rem;
   line-height: 1.6;
   border: none;
@@ -112,7 +112,7 @@ textarea {
 }
 
 .button {
-  font-family: 'riterbasic', impact;
+  font-family: 'Riter-Basic', impact;
   border: 0;
   color: white;
   font-weight: bold;
@@ -146,7 +146,7 @@ textarea {
 }
 
 p {
-  font-family: 'riter_italicitalic', serif;
+  font-family: 'Riter-Italic', serif;
 }
 
 img { width: 100%; }
@@ -183,5 +183,5 @@ ul {
 }
 
 li {
-  font-family: 'riter_italicitalic', serif;
+  font-family: 'Riter-Italic', serif;
 }
